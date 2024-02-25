@@ -3,4 +3,5 @@ __pycache__
 .idea
 venv
 python_embeded
+apikey.json
 run_gemini_python_embeded.bat
