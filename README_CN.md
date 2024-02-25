@@ -1,7 +1,7 @@
 # SimpleGemini
 
 
-SimpleGeminiGradioApp 是一个交互式AI聊天WebApp, 它通过Google Gemini Pro和Gemini Pro Vision API进行实时对话， 支持文本和图片prompt。使用这个程序需要可以正常访问Google的网络环境， 并预先在[Google AI Studio](https://makersuite.google.com/app/apikey)申请API key。  
+SimpleGemini 是一个基于[Gradio](https://www.gradio.app/)的交互式AI聊天WebApp, 它通过Google Gemini Pro和Gemini Pro Vision API进行实时对话， 支持文本和图片prompt。使用这个程序需要可以正常访问Google的网络环境， 并预先在[Google AI Studio](https://makersuite.google.com/app/apikey)申请API key。  
 
 本项目是[meryemsakin/GeminiGradioApp](https://github.com/meryemsakin/GeminiGradioApp)的修改版，在其基础上增加了保存对话<sup>*</sup>的功能。   
 
@@ -24,7 +24,7 @@ App右下角有"Save to LOG"复选框，默认是勾选状态。如果取消勾选，当前这条聊天记录不
 
 手动部署方法如下，安装说明仅针对Windows，其他平台请自行参照部署。
 
-* 首先确认安装了Python 3.10以上版本, 并且在[Google AI Studio](https://makersuite.google.com/app/apikey)获得了API key。
+* 首先确认安装了Python 3.10以上版本。
 
 * 打开终端，用以下命令克隆这个仓库:
 ```
