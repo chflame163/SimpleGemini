@@ -47,7 +47,7 @@ python.exe -m venv venv
 ```
 .\venv\Scripts\python.exe -m pip install -r .\requirements.txt
 ```
-* Close the terminal window. Find ```SimpleGemini\run_gemini_python_embeded.bat```, Double click to run. Please ensure that your network environment can use Gemini normally.
+* Close the terminal window. Find the ```SimpleGemini\apikey.json```, Open this file using text editing software (such as Notepad), fill in your Google API key in the double quotation marks after "GOOGLE-API_KEY" on the second line, and save the file.
 ![image](images/api_key.png)
 
 * Installation completed, Find ```SimpleGemini\run_gemini_venv.bat```, Double click to run. Please ensure that your network environment can use Gemini normally.
