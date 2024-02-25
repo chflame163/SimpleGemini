@@ -1,6 +1,6 @@
 # SimpleGemini
 
-[中文说明点这里](./README_CN.MD)
+[中文说明点这里](./README_CN.md)
 
 SimpleGemini is an interactive AI chat WebApp based on [Gradio](https://www.gradio.app/), It conducts real-time conversations through Google Gemini Pro and Gemini Pro Vision API, supporting text and image prompts.   
 
